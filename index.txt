@@ -1,1 +1,96 @@
-hghghghjghg
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Page Title</title>
+  </head>
+
+  <style>
+    ul {
+      list-style-type: none;
+    }
+
+    .box-logo {
+      display: block;
+      background-color: rgb(152, 152, 152);
+      padding: 1px;
+      padding-bottom: -10px;
+      font-family: Monospace;
+      font-size: 200%;
+      color: rgb(3, 3, 105);
+      margin-bottom: -10px;
+      text-align: center;
+      width: 1300px;
+    }
+
+    .p {
+      text-align: center;
+    }
+
+    .box-p1 {
+      display: block;
+      background-color: rgb(3, 3, 105);
+      padding: 20px;
+      height: 50px;
+      width: 360px;
+      margin-right: 1300px;
+      margin-bottom: -15px;
+      margin-left: -40px;
+    }
+
+    .box-p2 {
+      display: block;
+      background-color: rgb(152, 152, 152);
+      padding: 20px;
+      height: 50px;
+      width: 360px;
+      margin-right: 1300px;
+      margin-bottom: -15px;
+      margin-left: -40px;
+    }
+
+
+    .picture {
+      display: block;
+      height: 395px;
+      margin-top: -5px;
+      float: right;
+    }
+
+    .quote {
+      text-align: center;
+      background-color: rgb(152, 152, 152);
+    }
+  </style>
+
+  <body>
+    <div class="box-logo">
+      <h1>LOGO</h1>
+    </div>
+    
+    <div style="width: 1300px">
+    <div class="p">
+      <ul>
+        <div class="picture" >
+          <img src="projectIT.jpg" alt="Loving Moments" style="height: 395px">
+        </div>
+        <li class="box-p1"><a href="#" style="color: white">Home</a></li>
+        <li class="box-p2"><a href="#" style="color: black">About Us</a></li>
+        <li class="box-p1"><a href="#" style="color: white">Products</a></li>
+        <li class="box-p2"><a href="#" style="color: black">Services</a></li>
+        <li class="box-p1"><a href="#" style="color: white">Contact</a></li>
+      </ul>
+    </div>
+    </div>
+
+    <div class="quote" style="width: 1300px">
+      <p>The result is a series of stunning rooms, all bearing the mark of Colin and Justin's unique and inventive design. Learn how to create  a lavish baroque dining room, an elegant vinatge boudoir, a chilled out Moroccan lounge, or an oriental style bedroom. Find out to give your home a minimalist chic, New England, or modern tropical look. And discover how to get a hotel-style bedroom, a country-kitsch dining room, and a modern-retro living room.</p>
+      <p>There are featured 'at home' contributors throughout the series including designers Matthew Hilton and Jocelyn Warner, as well as a peek inside the gorgeous home of Kelly Hoppen, the woman with the daunting task of tackling the interior design of David and Victoria Beckham's LA pad. Delve deep into the the stylelist world of design and interiors in this fabulous, jam packed series.</p>
+    </div>
+
+    <div class="p">
+      <p><ins style="color: purple">Copyright 2017 | Designed by Bacsonation</ins></p>
+    </div>
+  </body>
+
+</html>
