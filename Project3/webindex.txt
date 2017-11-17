@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .navClass ul {
+        overflow: auto;
+        list-style-type: none;
+        text-align: center;
+        background: black;
+      }
+      .navClass > ul > li {
+        float: left;
+        width: 120px;
+        line-height: 50px;
+        font-family: sans-serif;
+        font-size: 13px;
+      }
+      
+      a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        display: block;
+      }
+      a:hover {
+        background-color: #474545;
+        color: white;
+      }
+      
+      .sub-menu {
+        display: none;
+        position: absolute;
+        width: 250px;
+      }
+      .navClass > ul > li:hover .sub-menu {
+        display: block;
+      }
+      .navClass li li li li {
+        position: relative;
+      }
+      .sub-menu-lv1 {
+        position: absolute;
+        display: none;
+        width: 250px;
+        left: 250px;
+        top: 200px;
+        color: white;
+      }
+      .sub-menu > ul > li:hover .sub-menu-lv1 {
+        display: block;
+      }
+      .sub-menu-lv2 {
+        position: absolute;
+        display: none;
+        width: 250px;
+        left: 250px;
+        top: 0px;
+        color: white;
+      }
+      .sub-menu-lv1 > ul > li:hover .sub-menu-lv2 {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navClass">
+      <ul>
+        <li><a href="#">HOME PAGE</a></li>
+        <li><a href="#">FILM</a>
+          <div class="sub-menu">
+            <ul>
+              <li><a href="#">Romance</a></li>
+              <li><a href="#">Comedy</a></li>
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Science Fiction</a></li>
+              <li><a href="#">Others</a>
+                <div class="sub-menu-lv1">
+                  <ul>
+                    <li><a href="#">Documetaty</a>
+                      <div class="sub-menu-lv2">
+                        <ul>
+                          <li><a href="#">World War II</a></li>
+                          <li><a href="#">The mistery of nature</a></li>
+                          <li><a href="#">Vietnam - An incredible country</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li><a href="#">Hisory</a></li>
+                    <li><a href="#">Social Experience</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="#">SUPPORT</a></li>
+        <li><a href="#">DONATE</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
