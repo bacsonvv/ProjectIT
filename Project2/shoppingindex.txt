@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <link href="https://fonts.googleapis.com/css?family=Spectral SC" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Secular+One" rel="stylesheet">
+  <head>
+    <title>Page Title</title>
+  </head>
+  
+  <style>
+    .logo {
+      display: block;
+      background-color: #c9c9c9;
+      width: 1366px;
+      height: 120px;
+      font-family: arial;
+    }
+    .box-mid {
+      display: block;
+      font-family: arial;
+      border: 2px solid black;
+      margin-top: 30px;
+      margin-left: 30px;
+      padding-left: 30px;
+      width: 1000px;
+      height: 180px;
+    }
+    .submit_button {
+      margin-left: 20px;
+      background-color: black;
+      color: white;
+      text-align: center;
+      border-style: none;
+      height: 20px;
+      width: 70px;
+    }
+    input {
+      border-style: inset solid;
+    }
+    .back_button {
+      display: block;
+      margin-top: -30px;
+      margin-right: 500px;
+      border-top: 1px solid grey outset;
+      border-left: 1px solid grey outset;
+      border-right: 1px solid grey outset;
+      border-bottom: none;
+      background-color: white;
+      width: 70px;
+      height: 30px;
+      margin-left: 995px;
+    }
+    .shopping_bag {
+      font-family: arial;
+      margin-left: 30px;
+      margin-top: 60px;
+      font-size: 25px;
+    }
+    .table1 {
+      border-top: solid #c9c9c9;
+      border-bottom: solid #c9c9c9;
+      margin-left: 30px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    p {
+      font-family: arial;
+    }
+    .table2 {
+      margin-left: 700px;
+      padding-top: 40px;
+      padding-bottom: 20px;
+      border-bottom: solid #c9c9c9;
+    }
+    .td {
+      font-size: 25px;
+      font-family: arial;
+    }
+  </style>
+  
+  <body>
+    <div>
+      <div class="logo">
+        <div style="padding-top: 30px; padding-left: 30px; height: 90px">
+          <h1 style="margin-bottom: -15px;">ELV</h1>
+          <p>ONE CHECKOUT FOR ALL 5 BESTSELLER SHOPS</p>
+        </div>
+        <div>
+          <button type="submit" class="back_button"> BACK </button>
+        </div>
+      </div>
+      <div class="box-mid">
+        <div style="margin-top: 35px;">
+          <p>APPEARANCE AND INFO IN THIS BOX IS CONTROLLED BY ELV NOT BY BOOZT</p>
+          <p>Lorem ipsum<input type="text" style="margin-left: 70px; width: 200px"></p>
+          <p>Lorem ipsum<input type="text" style="margin-left: 70px; width: 70px;"><input type="text" style="margin-left: 10px; width: 116px;"><button type="submit" class="submit_button">Submit</button></p>
+        </div>
+      </div>
+      <div style="width: 1100px;">
+        <h1 class="shopping_bag">YOUR SHOPPING BAG</h1>
+        <div style="font-family: arial;">
+          <table class="table1">
+            <tr>
+              <th>PRODUCT</th>
+              <th style="padding-left: 60px">DESCRIPTION</th> 
+              <th style="padding-left: 350px">QUANTITY</th>
+              <th style="padding-left: 130px">PRICE</th>
+              <th style="padding-left: 115px">TOTAL</th>
+            </tr>
+          </table>
+        </div>
+        <div style="width: 1100px">
+          <table style="margin-left: 30px; border-bottom: solid #c9c9c9;">
+            <tr>
+              <td><img src="jacket.jpg" style="height: 150px"></td>
+              <td style="padding-left: 25px;">
+                <div style="width: 200px">
+                  <p><b style=" font-family: 'Secular One', sans-serif;">VERO MODA® </b></p>
+                  <p>Glamour 3/4 short cardigan</p>
+                </div>
+                <div style="color: grey; margin-top: 40px">
+                  <p>Product id:</p>
+                  <p style="margin-top: -15px;">5700347945488</p>
+                </div> 
+              </td>
+              <td style="padding-left: 50px">
+                <div style="width: 155px">
+                  <p>Size: M</p>
+                  <p>Colour: CAPRIFOLIE</p>
+                </div>
+              </td>
+              <td style="padding-left: 100px;">1</td>
+              <td>
+                <div style="width: 60px; padding-left: 150px">
+                  <p>€ 19.95</p>
+                </div>
+              </td>
+              <td>
+                <div style="width: 60px; padding-left: 104px">
+                  <p>€ 19.95</p>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div>
+        <table class="table2">
+          <tr>
+            <td>
+              <p style="width: 100px">SUB-TOTAL:</p>
+              <P>SHIPPING:</P>
+            </td>
+            <td style="padding-left: 60px; padding-bottom: 32px">
+              <p style="width: 50px">1 item</p>
+            </td>
+            <td style="padding-left: 95px">
+              <p style="width: 60px">€ 19.95</p>
+              <p>€ 12.95</p>
+            </td>
+          </tr>
+        </table>
+        <table  class="table2" style="padding-top: 20px; padding-bottom: 20px;">
+          <tr>
+            <td class="td"><b>TOTAL</b></td>
+            <td class="td" style="padding-left: 205px; padding-right: 5px"><b>€32.90</b></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
